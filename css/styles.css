@@ -2,3 +2,28 @@ body {
   padding-top: 60px;
   padding-bottom: 40px;
 }
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   background:#EEE;
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+.blog-date {
+  color: #AAA;
+  font-family: Monaco, "Courier New", monospace;
+}
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}

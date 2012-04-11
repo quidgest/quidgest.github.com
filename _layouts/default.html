@@ -9,7 +9,7 @@
 
         <!-- Le styles -->
         <link href="/css/bootstrap.min.css" rel="stylesheet">
-        <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="/css/bootstrap-responsive.css" rel="stylesheet">
         <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen, projection" />
 
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -46,6 +46,7 @@
                 <ul class="nav">
                   <li class="active"><a href="/about.html">About</a></li>
                   <li><a href="/blog.html">Blog</a></li>
+                  <li><a href="/roadmap.html">Roadmap</a></li>
                   <li><a href="/faq.html">FAQ</a></li>
                   <li><a href="/contact.html">Contact us</a></li>
                 </ul>
@@ -56,10 +57,14 @@
 
         <div class="container">
             {{ content }}
-
-            <footer>
-              <p>&copy; Quidgest 2012</p>
-            </footer>
         </div>
+
+        <footer id="footer">
+            <div class="container">
+                <span class="pull-right">
+                    <h6>&copy; Quidgest 2012 and FCT/UNL</h6>
+                </span>
+            </div>
+        </footer>
     </body>
 </html>
