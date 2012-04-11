@@ -1,0 +1,10 @@
+---
+layout: post
+title: Title of third post
+---
+
+h1. {{ page.title }}
+
+p(meta). 13 Apr 2012 - Lisbon
+
+Text for third post etcetcetc
