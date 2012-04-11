@@ -1,0 +1,10 @@
+---
+layout: post
+title: Second post
+---
+
+h1. {{ page.title }}
+
+p(meta). 12 Apr 2012 - Lisbon
+
+This is the second post for "Quidgest":http://www.quidgest.com/ !

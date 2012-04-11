@@ -1,0 +1,10 @@
+---
+layout: post
+title: First post
+---
+
+h1. {{ page.title }}
+
+p(meta). 11 Apr 2012 - Lisbon
+
+Something is happening "Quidgest":http://www.quidgest.com/ !
