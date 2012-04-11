@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Page Title</title>
+        <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -44,9 +44,10 @@
               <a class="brand" href="/">QSearch</a>
               <div class="nav-collapse">
                 <ul class="nav">
-                  <li class="active"><a href="/about.html">About</a></li>
+                  <li><a href="/about.html">About</a></li>
                   <li><a href="/blog.html">Blog</a></li>
                   <li><a href="/roadmap.html">Roadmap</a></li>
+                  <li><a href="/technologies.html">Technologies</a></li>
                   <li><a href="/faq.html">FAQ</a></li>
                   <li><a href="/contact.html">Contact us</a></li>
                 </ul>
@@ -62,9 +63,12 @@
         <footer id="footer">
             <div class="container">
                 <span class="pull-right">
-                    <h6>&copy; Quidgest 2012 and FCT/UNL</h6>
+                    <h6>&copy; Quidgest and FCT/UNL, 2012</h6>
                 </span>
             </div>
         </footer>
+
+        <!-- Le javascripts -->
+        <script src="/js/bootstrap.min.js"></script>
     </body>
 </html>

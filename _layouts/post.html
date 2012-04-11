@@ -2,6 +2,10 @@
 layout: default
 ---
 <div id="post">
+    <span>
+      Posted on {{ page.date | format_date }}
+      {% if page.category %} in <a href="/categories/{{ page.category | slugize }}">{{ page.category }}</a> {% endif %}
+    </span>
 {{ content }}
 </div>
 

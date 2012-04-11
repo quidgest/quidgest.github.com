@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Title of third post
+category: Science
+tags:
+- something
+- ola
 ---
 
 h1. {{ page.title }}
