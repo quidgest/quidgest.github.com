@@ -1,14 +1,12 @@
 ---
 layout: post
-title: First post
-category: Science
+title: QSearch - document management reinvented
+category: General
 tags:
-- ola
-- yea
+- QSearch
+- Document Management
 ---
 
-h1. {{ page.title }}
 
-p(meta). 11 Apr 2012 - Lisbon
-
-Something is happening "Quidgest":http://www.quidgest.com/ !
+Something is happening at "Quidgest":http://www.quidgest.com/ !
+This blog post is a test.

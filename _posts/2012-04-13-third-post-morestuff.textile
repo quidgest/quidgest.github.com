@@ -1,14 +1,10 @@
 ---
 layout: post
-title: Title of third post
-category: Science
+title: QSearch presentation at Quidspark
+category: General
 tags:
-- something
-- ola
+- QSearch
+- Quidgest
 ---
 
-h1. {{ page.title }}
-
-p(meta). 13 Apr 2012 - Lisbon
-
-Text for third post etcetcetc
+We did two presentations (Filipe Araújo and Flávio Martins) on Quidspark regarding the topic of QSearch and general search engine capabilities.

@@ -11,17 +11,21 @@ title: QSearch
   <p><a href="/about.html" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
 </div>
 
-<div>
-  <h1>Blog Posts</h1>
-
-  <h3>Beginner<h3>
-  {% for post in site.categories.beginner %}
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  {% endfor %}
-
-  <ul class="posts unstyled">
-    {% for post in site.posts %}
+<div class="row">
+    <div class="span4">
+      <h1>Latest articles</h1>
+      <ul class="posts unstyled">
+      {% for post in site.posts limit: 5 %}
       <li><span class="blog-date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+      </ul>
+  </div>
+    <div class="span4">
+        <h1>Categories</h1>
+        {% category_list %}
+  </div>
+  <div class="span4">
+      <h1>Tag cloud</h1>
+      {% tag_cloud %}
+  </div>
 </div>

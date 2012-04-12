@@ -1,14 +1,11 @@
 ---
 layout: post
-title: Second post
-category: Engineering
+title: A new team member has arrived...
+category: General
 tags:
-- something
-- yea
+- QSearch
+- Team
 ---
 
-h1. {{ page.title }}
-
-p(meta). 12 Apr 2012 - Lisbon
-
-This is the second post for "Quidgest":http://www.quidgest.com/ !
+We welcome Flávio Martins to our project.
+May he bring his tech skills to the good fruition of the project.

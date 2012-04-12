@@ -3,13 +3,14 @@ module Jekyll
     safe = true
 
     def render(context)
-      result = ""
+      result = "<ul class='unstyled'>"
       categories = context.registers[:site].categories
 
       categories.keys.each do |category|
-        result << %(<a href="/categories/#{category.slugize}"><strong>#{category}</strong></a> (#{categories[category].length})<br />)
+        result << %(<li><a href="/categories/#{category.slugize}">#{category}</a> (#{categories[category].length})<br /></li>)
       end
 
+      result << "</ul>"
       result
     end
   end
