@@ -12,14 +12,14 @@ title: QSearch
 </div>
 
 <div class="row">
-    <div class="span4">
-      <h1>Latest articles</h1>
-      <ul class="posts unstyled">
-{% for post in site.posts limit: 5 %}
-          <li><span class="blog-date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  <div class="span4">
+  <h1>Latest articles</h1>
+  <ul class="posts unstyled">
+{% for post in site.posts %}
+  <li><span class="blog-date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
-      </ul>
-    </div>
+  </ul>
+  </div>
   <!--
     <div class="span4">
         <h1>Categories</h1>
